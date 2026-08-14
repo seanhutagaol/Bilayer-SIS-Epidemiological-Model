@@ -9,6 +9,7 @@ To analyze the stability and bifurcation structure of a bilayer COVID-19 model, 
 * `main.m` - The master execution script running the end-to-end pipeline (Data Calibration $\rightarrow$ Parameter Sweeps $\rightarrow$ Bifurcation Analysis $\rightarrow$ Optimal Control).
 * `covid.csv` - The empirical incidence dataset used for baseline parameter estimation and bootstrapping.
 * `functions/` - The core mathematical engine containing the ODE system, constraints, and objective functionals for the control theory solver.
+* `Simulation_Figures/` — Auto-generated directory containing all individual high-resolution plots (.jpg) produced by the master script.
 * `Simulation_Results.pdf` — Compiled simulation figures, including model trajectories, emergent limit cycles, and solvency-related results.
 
 ## ⚠️ Copyright and Usage
